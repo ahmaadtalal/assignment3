@@ -1,0 +1,137 @@
+  body {
+    background-color: #F7F9FB;
+    font-family: "Dosis", sans-serif;
+    font-style: normal;
+}
+
+#header-nav {
+    background-color: #34495E;
+    color: #ECF0F1;
+    border-radius: 0;
+    border: 2px solid #1C2833;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    border-bottom: 2px solid #1C2833;
+}
+
+.navbar-brand {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.container {
+    margin-left: 0px;
+}
+
+.navbar-brand h1 {
+    color: #ECF0F1;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px #2C3E50;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 35px;
+}
+
+.navbar-brand h1:hover {
+    color: #BDC3C7;
+}
+
+.navbar-brand a {
+    color: #ECF0F1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+
+#nav-list {
+    margin-top: 15px;
+}
+
+#nav-list a {
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+}
+
+#nav-list a:hover {
+    background-color: #D5D8DC;
+}
+
+.chickentile {
+    margin-top: 1px;
+    border-bottom: 2px solid #1C2833;
+}
+
+.beeftile {
+    border-bottom: 2px solid #1C2833;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 2px solid #1C2833;
+}
+
+.icon-bar {
+    border: 2px solid #1C2833;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -43px;
+}
+
+.row {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    color: black;
+}
+
+section {
+    background-color: #BDC3C7;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+@media (min-width: 768px) {
+
+    .col-lg-12,
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-xs-12 {
+        width: 100%;
+    }
+}
+
+h2 {
+    color: #34495E;
+    margin-top: 35px;
+    margin-bottom: 60px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.this {
+    padding-bottom: 0px;
+}
+
+h3 {
+    font-weight: bold;
+    color: #2C3E50;
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
